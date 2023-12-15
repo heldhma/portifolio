@@ -1,5 +1,2 @@
-document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() {
-        document.getElementById('typewriter').style.animation = 'apagar 3s steps(30, end) infinite';
-    }, 3000);
-});
+var audio = document.getElementById("audio");
+audio.volume = 0.15;
