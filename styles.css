@@ -1,0 +1,78 @@
+body { 
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Alterado para branco */
+}
+
+h2.public-sans {
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    white-space: nowrap;
+    animation: typewriter 4s steps(30) 1s forwards;
+}
+
+header p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+
+    text-align: center;
+    padding: 10px 0;
+}
+
+.moldura-imagem {
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
