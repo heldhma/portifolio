@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff; 
+    background-color: #fff; /* Alterado para branco */
 }
 
 h2.public-sans {
@@ -18,7 +18,7 @@ h2.public-sans {
 
 header {
 
-    padding: 20px 0;
+    padding: 90px 0;
     text-align: center;
 }
 
