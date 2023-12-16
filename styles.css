@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff; /* Alterado para branco */
+    background-color: #fff; 
 }
 
 h2.public-sans {
@@ -84,4 +84,18 @@ footer {
     align-items: center;
     margin-top: 100px;
     transition: transform 0.5s ease-in-out;
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
 }
