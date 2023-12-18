@@ -38,5 +38,22 @@ document.addEventListener('DOMContentLoaded', function () {
         imagem2.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
 
-    setInterval(nextSlide, 3500);
+    setInterval(nextSlide, 3500); // Troca de slide a cada 3 segundos
+
+    // Adiciona um evento de clique a todos os links do menu
+    const links = document.querySelectorAll('nav a');
+    links.forEach(link => {
+        link.addEventListener('click', smoothScroll);
+    });
+
+    // Função para rolar suavemente até a seção correspondente
+    function smoothScroll(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth'
+        });
+    }
 });
